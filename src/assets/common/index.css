@@ -1,0 +1,47 @@
+.before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .12);
+    -webkit-transform: scaleY(0.5);
+    -ms-transform: scaleY(0.5);
+    -o-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    position: absolute;
+    bottom: 0;
+}
+
+.title_text {
+    font-size: 17px;
+    color: #101D37;
+    font-weight: bold;
+}
+
+.pt15 {
+    padding-top: 15px;
+}
+
+.pb15 {
+    padding-bottom: 15px;
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+
+.pr15 {
+    padding-right: 15px;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+.pr_pl15 {
+    padding: 0 15px;
+}
+
+.pt_pb15 {
+    padding: 15px 0;
+}
